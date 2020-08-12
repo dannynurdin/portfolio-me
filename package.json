@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build:css": "tailwind build src/assets/style/style.css -o src/assets/style/tailwind.css"
+    "build:css": "tailwind build src/assets/style/style.css -o src/assets/style/tailwind.css",
+    "start": "node server.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -14,9 +15,11 @@
     "@fortawesome/free-regular-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
     "@ionic/core": "^5.3.1",
     "@ionic/vue": "0.0.9",
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
     "tailwindcss": "^1.6.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
