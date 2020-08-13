@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link class="font-bold px-2 py-2 mt-4 mb-4" to="/">Home</router-link> |
-      <router-link class="font-bold px-2 py-2 mt-4 mb-4" to="/project">Project</router-link> |
+      <router-link class="font-bold px-2 py-2 mt-4 mb-4" to="/projects">Projects</router-link> |
       <router-link class="font-bold px-2 py-2 mt-4 mb-4" to="/profile">Profile</router-link>
     </div>
       <router-view/>
